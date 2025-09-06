@@ -1,0 +1,16 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, sans-serif; margin: 0; padding: 24px; background: #f6f7f9; color: #111827; }
+
+.container { max-width: 640px; margin: 0 auto; background: #fff; padding: 20px;
+  border-radius: 12px; box-shadow: 0 6px 18px rgba(0,0,0,0.06); }
+
+h1 { margin: 0 0 16px; }
+
+.field { display: grid; gap: 6px; margin-bottom: 12px; }
+input, select { padding: 10px 12px; border: 1px solid #d8dbe2; border-radius: 8px; }
+
+#status { min-height: 1.2em; color: #374151; }
+#status.error { color: #b91c1c; }
+#status.ok { color: #065f46; }
+
+.card { border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px; background: #fafafa; }
